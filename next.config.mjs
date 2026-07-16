@@ -48,6 +48,7 @@ function getLegacyRedirects() {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  distDir: "out",
   async redirects() {
     return getLegacyRedirects();
   }
