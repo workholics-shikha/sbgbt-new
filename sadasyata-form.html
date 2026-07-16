@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBGBT</title>
+
+    <!-- Internal Links -->
+    <link rel="stylesheet" href="style.css?ver=1.0.1">
+    <!-- Additional Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Bootstrap 5.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main-container sadasyata-form-page">
+        <!-- header -->
+        <div class="container-fluid bg-000000">
+            <div class="container header1">
+                <div class="d-block d-md-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center p-2">
+                        <h6 class="mb-0 me-3 fs-14">
+                            <a href="mailto:sbgbteam@gmail.com" class="text-decoration-none">
+                                <i class="fa-solid fa-envelope text-F27277"></i>
+                                <span class="text-white ms-1 fw-normal">sbgbteam@gmail.com</span>
+                            </a>
+                        </h6>
+                        <h6 class="mb-0 fs-14">
+                            <a href="tel:+919314408609" class="text-decoration-none">
+                                <i class="fa-solid fa-phone text-F27277"></i>
+                                <span class="text-white ms-1 fw-normal">+91 9314408609</span>
+                            </a>
+                        </h6>
+                    </div>
+                    <div class="d-flex align-items-center p-2">
+                        <select class="form-select form-select-sm rounded-pill py-0 me-5"
+                            aria-label="Small select example">
+                            <option selected>भाषा बदले</option>
+                            <option value="1">Bengali</option>
+                            <option value="2">English</option>
+                            <option value="3">Gujarati</option>
+                            <option value="4">Hindi</option>
+                            <option value="5">Malayalam</option>
+                            <option value="6">Marathi</option>
+                            <option value="7">Punjabi (Gurmukhi)</option>
+                            <option value="8">Sindhi</option>
+                            <option value="9">Tamil</option>
+                            <option value="10">Telugu</option>
+                            <option value="11">Urdu</option>
+                        </select>
+                        <div class="d-flex">
+                            <a href="https://www.facebook.com/sbgbteam/" target="_blank">
+                                <i class="fa-brands fa-facebook text-1877F2 bg-white rounded-circle"></i>
+                            </a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsbgbteam" target="_blank">
+                                <i class="fa-brands fa-square-x-twitter text-white ms-3"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCOQAQS7J5cKft2mlwjpZn-A" target="_blank">
+                                <i class="fa-brands fa-youtube text-FF0000 ms-3"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-blogger text-F06A35 ms-3"></i>
+                            </a>
+                            <a href="https://www.instagram.com/sbgbteam/" target="_blank">
+                                <img src="images/insta-icon.png" alt="" class="ms-3">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-F4F4F4">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/header-logo.png" alt="" class="me-3">
+                        <span class="text-F27277 fw-bold d-none d-lg-block">SBGBT</span>
+                    </a>
+                    <!-- Mobile Toggle -->
+                    <div class="d-lg-none bg-F4F4F4 p-2 d-flex justify-content-between align-items-center">
+                        <a href="daan-kare.html"
+                            class="btn btn-danger rounded-pill d-flex align-items-center justify-content-center me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 21 21"
+                                fill="none">
+                                <path
+                                    d="M15 0C12.24 0 10 2.24 10 5C10 7.76 12.24 10 15 10C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0ZM15 8C13.34 8 12 6.66 12 5C12 3.34 13.34 2 15 2C16.66 2 18 3.34 18 5C18 6.66 16.66 8 15 8ZM18 14H16C16 12.8 15.25 11.72 14.13 11.3L7.97 9H0V20H6V18.56L13 20.5L21 18V17C21 15.34 19.66 14 18 14ZM4 18H2V11H4V18ZM12.97 18.41L6 16.5V11H7.61L13.43 13.17C13.77 13.3 14 13.63 14 14C14 14 12 13.95 11.7 13.85L9.32 13.06L8.69 14.96L11.07 15.75C11.58 15.92 12.11 16 12.65 16H18C18.39 16 18.74 16.24 18.9 16.57L12.97 18.41Z"
+                                    fill="white" />
+                            </svg>
+                            <span class="ms-2">दान करे</span>
+                        </a>
+                        <button class="btn border-0 p-0 d-flex align-items-center" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                            <i class="fa-solid fa-bars-staggered fs-1 fw-bold text-FF543E"></i>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="admit-card.html" class="btn rounded-pill btn-outline-danger me-3">Admit
+                                    Card</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="sadasyata-form.html" class="btn rounded-pill btn-outline-danger me-3">sbgbt
+                                    सदस्य बने</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="daan-kare.html" class="btn rounded-pill btn-danger d-flex align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 21 21"
+                                        fill="none">
+                                        <path
+                                            d="M15 0C12.24 0 10 2.24 10 5C10 7.76 12.24 10 15 10C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0ZM15 8C13.34 8 12 6.66 12 5C12 3.34 13.34 2 15 2C16.66 2 18 3.34 18 5C18 6.66 16.66 8 15 8ZM18 14H16C16 12.8 15.25 11.72 14.13 11.3L7.97 9H0V20H6V18.56L13 20.5L21 18V17C21 15.34 19.66 14 18 14ZM4 18H2V11H4V18ZM12.97 18.41L6 16.5V11H7.61L13.43 13.17C13.77 13.3 14 13.63 14 14C14 14 12 13.95 11.7 13.85L9.32 13.06L8.69 14.96L11.07 15.75C11.58 15.92 12.11 16 12.65 16H18C18.39 16 18.74 16.24 18.9 16.57L12.97 18.41Z"
+                                            fill="white" />
+                                    </svg>
+                                    <span class="ms-2">दान करे</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container header3">
+                <nav class="navbar navbar-expand-lg py-0">
+                    <div class="container-fluid p-0">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav gap-lg-4">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" aria-current="page" href="index.html">होम</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="about-us.html"> हमारे बारे में </a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="#"> हमारे कार्य </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="#">सफलता की कहानी</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="utthan-patrika.html">उत्थान पत्रिका</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="gallery.html">गैलरी</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle nav-border-top" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        मीडिया कॉर्नर
+                                    </a>
+                                    <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                                        <li><a class="dropdown-item" href="jagrukta-lekh.html">जागरूकता लेख</a></li>
+                                        <li><a class="dropdown-item" href="media-corner.html">मीडिया कॉर्नर</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item me-3">
+                                    <a class="btn btn-sm btn-primary bg-3771C8 rounded-pill px-4 py-1 d-flex align-items-center"
+                                        href="sampark-kare.html"> संपर्क</a>
+                                </li>
+                                <li class="nav-item dropdown me-3">
+                                    <a class="dropdown-toggle border rounded-pill btn btn-sm px-3 py-1" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        रजिस्ट्रेशन
+                                    </a>
+                                    <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                                        <li><a class="dropdown-item" href="aavedan-form.html">SBGBT प्रतिभा सम्मान समागम
+                                                - रजिस्ट्रेशन</a></li>
+                                        <li><a class="dropdown-item" href="coaching-sanstha.html">उत्थान कोचिंग
+                                                रजिस्ट्रेशन</a></li>
+                                        <li><a class="dropdown-item" href="csr-partnership.html">CSR Partnership</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle border rounded-pill btn btn-sm px-3 py-1" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        लॉगिन करें 
+                                    </a>
+                                    <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                                        <li><a class="dropdown-item" href="sbgbt-prabandhak-login.html">SBGBT
+                                                प्रबंधक</a></li>
+                                        <li><a class="dropdown-item" href="coaching-prabandhak-login.html">उत्थान कोचिंग
+                                                प्रबंधक</a></li>
+                                        <li><a class="dropdown-item" href="spgbt-prabandhak-login.html">SPGBP
+                                                प्रबंधक</a></li>
+                                        <li><a class="dropdown-item" href="sbgbt-sadasya-login.html">SBGBT सदस्य</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Offcanvas Mobile Sidebar -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" style="background-color: #FFF5F5;">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/header-logo.png" alt="" class="me-3">
+                        <span class="text-F27277 fw-bold">SBGBT</span>
+                    </a>
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- Nav Links -->
+                <ul class="nav flex-column mb-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">होम</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">हमारे बारे में</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">हमारे कार्य</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">सफलता की कहानी</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="utthan-patrika.html">उत्थान पत्रिका</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">गैलरी</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">मीडिया कॉर्नर</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="jagrukta-lekh.html">जागरूकता लेख</a></li>
+                            <li><a class="dropdown-item" href="media-corner.html">मीडिया कॉर्नर</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Buttons -->
+                <div class="d-grid gap-2 mb-3">
+                    <a href="admit-card.html" class="btn btn-outline-danger rounded-pill">Admit Card</a>
+                    <a href="sadasyata-form.html" class="btn btn-outline-danger rounded-pill">sbgbt सदस्य बने</a>
+                    <a href="daan-kare.html"
+                        class="btn btn-danger rounded-pill d-flex align-items-center justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 21 21" fill="none">
+                            <path
+                                d="M15 0C12.24 0 10 2.24 10 5C10 7.76 12.24 10 15 10C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0ZM15 8C13.34 8 12 6.66 12 5C12 3.34 13.34 2 15 2C16.66 2 18 3.34 18 5C18 6.66 16.66 8 15 8ZM18 14H16C16 12.8 15.25 11.72 14.13 11.3L7.97 9H0V20H6V18.56L13 20.5L21 18V17C21 15.34 19.66 14 18 14ZM4 18H2V11H4V18ZM12.97 18.41L6 16.5V11H7.61L13.43 13.17C13.77 13.3 14 13.63 14 14C14 14 12 13.95 11.7 13.85L9.32 13.06L8.69 14.96L11.07 15.75C11.58 15.92 12.11 16 12.65 16H18C18.39 16 18.74 16.24 18.9 16.57L12.97 18.41Z"
+                                fill="white" />
+                        </svg>
+                        <span class="ms-2">दान करे</span>
+                    </a>
+                </div>
+
+                <!-- Contact & Login -->
+                <div class="d-grid gap-2">
+                    <a href="sampark-kare.html" class="btn btn-sm btn-primary rounded-pill">संपर्क</a>
+                    <div class="dropdown">
+                        <button class="btn btn-sm border rounded-pill dropdown-toggle w-100" data-bs-toggle="dropdown">
+                            रजिस्ट्रेशन
+                        </button>
+                        <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                            <li><a class="dropdown-item" href="aavedan-form.html">SBGBT प्रतिभा सम्मान समागम
+                                    - रजिस्ट्रेशन</a></li>
+                            <li><a class="dropdown-item" href="coaching-sanstha.html">उत्थान कोचिंग
+                                    रजिस्ट्रेशन</a></li>
+                            <li><a class="dropdown-item" href="csr-partnership.html">CSR Partnership</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-sm border rounded-pill dropdown-toggle w-100" data-bs-toggle="dropdown">
+                            लॉगिन करें
+                        </button>
+                        <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                            <li><a class="dropdown-item" href="sbgbt-prabandhak-login.html">SBGBT
+                                    प्रबंधक</a></li>
+                            <li><a class="dropdown-item" href="coaching-prabandhak-login.html">उत्थान कोचिंग
+                                    प्रबंधक</a></li>
+                            <li><a class="dropdown-item" href="spgbt-prabandhak-login.html">SPGBP
+                                    प्रबंधक</a></li>
+                            <li><a class="dropdown-item" href="sbgbt-sadasya-login.html">SBGBT सदस्य</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header -->
+
+        <!-- home banner start -->
+        <div class="container-fluid px-0 pageTopHeaderBg py-3">
+            <h3 class="fw-semibold text-white text-center mb-0">सदस्यता फॉर्म</h3>
+        </div>
+        <!-- home banner End -->
+
+        <!-- section2 start -->
+        <div class="container-fluid section2daanKare px-0 py-5">
+            <div class="container">
+                <div class="card card-noise blue-card rounded-5 border-0 mb-5">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-xl-2 d-flex align-items-center p-5 p-lg-3">
+                                <img src="images/helpCardLeftImg.png" alt="" class="w-100 ">
+                            </div>
+                            <div class="col-lg-5 col-xl-7 d-flex align-items-center">
+                                <div class="">
+                                    <h5 class="text-000000 fw-semibold lh-base">इस QR कोड को स्कैन करके आप SBGBT सदस्यता
+                                        शुल्क जमा कर सकते है।
+                                        इसकी प्रति (स्क्रीनशॉट) रजिस्ट्रेशन करते समय अपलोड करे।</h5>
+                                    <h4 class="text-3771C8 fw-semibold">Bank Name - ICICI Bank</h4>
+                                    <h4 class="text-3771C8 fw-semibold">Bank Account - 720801001079</h4>
+                                    <h4 class="text-3771C8 fw-semibold">IFCS Code - ICIC0007208</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-xl-3">
+                                <img src="images/qr-code.png" alt="" class="w-100">
+                                <h5 class="text-000000 text-center fw-semibold mb-0 mt-2">UPI ID : 9314408609@icici</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Donation Form -->
+                <div class="form-section mb-5">
+                    <h4 class="mb-4 fw-bold">हमसे जुड़ने के लिए फॉर्म भरें</h4>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">पहला नाम*</label>
+                                    <input type="text" class="form-control" placeholder="पहला नाम">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">मध्य नाम</label>
+                                    <input type="text" class="form-control" placeholder="मध्य नाम">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">उपनाम*</label>
+                                    <input type="text" class="form-control" placeholder="उपनाम">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">लिंग*</label>
+                                    <select class="form-select">
+                                        <option selected disabled>लिंग</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">तहसील (Tehsil)*</label>
+                                    <input type="text" class="form-control" placeholder="तहसील">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">ब्लड ग्रुप</label>
+                                    <select class="form-select">
+                                        <option selected disabled>ब्लड ग्रुप</option>
+                                        <option>A+</option>
+                                        <option>B+</option>
+                                        <option>O+</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">पिता /पति का नाम*</label>
+                                    <input type="text" class="form-control" placeholder="पिता /पति का नाम">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">उम्र</label>
+                                    <input type="text" class="form-control" placeholder="उम्र">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">जन्म तिथि *</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">योग्यता*</label>
+                                    <input type="text" class="form-control" placeholder="योग्यता">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">व्यवसाय*</label>
+                                    <input type="text" class="form-control" placeholder="व्यवसाय">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">स्थायी पता*</label>
+                                    <input type="text" class="form-control" placeholder="स्थायी पता">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">पत्राचार हेतु पता*</label>
+                                    <input type="text" class="form-control" placeholder="पत्राचार हेतु पता">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">आवास व कार्यालय का फोन नं॰</label>
+                                    <select class="form-select">
+                                        <option selected disabled>आवास व कार्यालय का फोन नं॰</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">आधार नं॰*</label>
+                                    <input type="text" class="form-control" placeholder="आधार नं॰">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">मोबाइल नं॰*</label>
+                                    <input type="text" class="form-control" placeholder="मोबाइल नं॰">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">परिजन मोबाइल नं॰*</label>
+                                    <input type="text" class="form-control" placeholder="परिजन मोबाइल नं॰">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">ईमेल आईडी</label>
+                                    <input type="text" class="form-control" placeholder="ईमेल आईडी">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">छवि (jpg, jpeg, png, svg, gif)*</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form-section mb-4">
+                    <h4 class="mb-3 fw-bold">सदस्यता का स्वरूप और सदस्यता राशि का विवरण:</h4>
+                    <h6 class="text-FF543E mb-3">सदस्यता की श्रेणी: (जो भी लागू हो टिक करें) *</h6>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-4 col-xxl-3 d-flex gap-3">
+                                <div class="bg-F0F7FF rounded-2 p-2" style="height: 46px;">
+                                    <div class="form-check form-check-inline d-flex align-items-center"
+                                        style="height: 36px;">
+                                        <input class="form-check-input mb-2" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label ms-3" for="inlineRadio1">
+                                            <h6 class="fs-11 text-000000 fw-medium mb-0">आजीवन सदस्य </h6>
+                                            <h4 class="text-000000 fw-semibold mb-0">₹51000</h4>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="bg-F0F7FF rounded-2 p-2" style="height: 46px;">
+                                    <div class="form-check form-check-inline d-flex align-items-center"
+                                        style="height: 36px;">
+                                        <input class="form-check-input mb-2" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label ms-3" for="inlineRadio1">
+                                            <h6 class="fs-11 text-000000 fw-medium mb-0">वार्षिक सदस्य</h6>
+                                            <h4 class="text-000000 fw-semibold mb-0">₹11000</h4>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xxl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">भुगतान की दिनाँक</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xxl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">भुगतान का माध्यम</label>
+                                    <select class="form-select">
+                                        <option selected disabled>भुगतान का माध्यम</option>
+                                        <option>Cash</option>
+                                        <option>UPI</option>
+                                        <option>Net Banking</option>
+                                        <option>Bank Transfer</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xxl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">भुगतान का माध्यम</label>
+                                    <select class="form-select">
+                                        <option selected disabled>भुगतान का माध्यम</option>
+                                        <option>Cash</option>
+                                        <option>UPI</option>
+                                        <option>Net Banking</option>
+                                        <option>Bank Transfer</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xxl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">डी॰डी॰ / चेक नं/ RTGS / NEFT/ Online Trans. ID</label>
+                                    <select class="form-select">
+                                        <option selected disabled>डी॰डी॰ / चेक नं</option>
+                                        <option>Cash</option>
+                                        <option>UPI</option>
+                                        <option>Net Banking</option>
+                                        <option>Bank Transfer</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xxl-3">
+                                <div class="floating-label">
+                                    <label class="form-label">भुगतान रसीद</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="text-000000 fs-13 lh-base">योगदान कैसे करें: उपरोक्त श्रेणियों में से किसी एक श्रेणी में
+                        सदस्य बनने के
+                        इच्छुक व्यक्ति उपर्युक्त फॉर्म को भरें I एक नवीनतम फोटोग्राफ (पासपोर्ट आकार का) फॉर्म के साथ
+                        संलग्न (अपलोड) करें और वांछित श्रेणी के लिए निर्धारित सदस्यता राशि का चेक/डी डी या ऑनलाइन माध्यम
+                        भुगतान करें और आवेदन फॉर्म के साथ उसका विवरण संलग्न (अपलोड) करें। चेक/डी डी से भुगतान करने हेतु
+                        चेक/डी डी "सोच बदलो गाँव बदलो संस्था, बाड़ी; कार्यालय - गली नं॰ 5, हौद बाड़ी, जिला – धौलपुर,
+                        राजस्थान – 328021" के पक्ष में तैयार करें ।</p>
+                </div>
+
+                <!-- घोषणा  start -->
+                <div class="">
+                    <h6 class="text-000000 fw-semibold">घोषणा :</h6>
+                    <p class="text-000000 fs-13 lh-base">मैं घोषणा करता / करती हूँ कि मैंने सोच बदलो गाँव बदलो संस्था,
+                        बाड़ी की सदस्यता के बारे
+                        में आवेदन फॉर्म के अंत में दिए गए सभी विस्तृत उद्देश्य, नियम और शर्तें पढ़ लिए हैं। मैं सभी
+                        संबंधित नियमों और शर्तों का पालन करूंगा / करूंगी। मेरे द्वारा किसी भी परिस्थिति में संबंधित
+                        नियमों और शर्तों के उल्लंघन की स्थिति में, सोच बदलो गाँव बदलो संस्था,बाड़ी बिना कोई कारण बताए
+                        मेरे खिलाफ अनुशासनात्मक कार्रवाई करने के लिए स्वतंत्र है और मैं इसके लिए पूरी तरह से जिम्मेदार
+                        रहूंगा / रहूंगी। अब, मैं सोच बदलो गाँव बदलो संस्था, बाड़ी के सदस्य के रूप में सोच बदलो गाँव बदलो
+                        संस्था, बाड़ी के नियमों और शर्तों के अनुसार नामांकन करने का अनुरोध करता / करती हूँ ।</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label fs-13 fw-medium" for="inlineCheckbox1">मैं घोषणा करता / करती हूँ
+                            कि सदस्यता फॉर्म
+                            ऊपर दिए गए सभी विवरण और जानकारी मेरे सर्वोत्तम ज्ञान और विश्वास के अनुसार सत्य और सही हैं और
+                            मैं आपको इसमें किसी भी परिवर्तन के बारे में तुरंत सूचित करने का वचन देता हूँ ।</label>
+                    </div>
+                    <h6 class="text-000000 fw-semibold mt-4">सोच बदलो - गाँव बदलो संस्था, बाड़ी की सदस्यता हेतु आवश्यक
+                        नियम और
+                        शर्तें :</h6>
+                    <ol class="">
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था के सभी सदस्य, संस्था की सदस्यता के अस्तित्व
+                                के
+                                लिए, सोच बदलो गाँव बदलो
+                                संस्था – बाड़ी,
+                                के नियमों और शर्तों के अधीन होगें ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था के लिए केवल व्यक्तिगत सदस्यता को ही स्वीकार
+                                किया जाएगा और यह सदस्यता अहस्तांतरणीय होगी
+                                ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था के किसी भी सदस्य के निधन पर उसकी सदस्यता के
+                                हस्तांतरण के लिए, उस सदस्य के प्राकृतिक
+                                उत्तराधिकारी के आवेदन पर, कोई भी निर्णय लेने के लिए सोच बदलो गाँव बदलो संस्था – बाड़ी,
+                                पूर्णतया
+                                स्वतंत्र होगी ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था की सदस्यता सोच बदलो गाँव बदलो संस्था- बाड़ी
+                                के ट्रस्टीशिप का किसी भी प्रकार का न तो कोई
+                                अधिकार है और न ही अधिकार प्रदान करती है ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था के सदस्यों को संस्था की सदस्यता की समयावधि
+                                के दौरान ही संस्था की सभी वैधानिक
+                                गतिविधियों/ प्रक्रियाओं में सम्मिलित होने का अधिकार होगा। सदस्यता समयावधि समाप्त होने के
+                                बाद
+                                किसी भी वैधानिक प्रक्रिया में उसकी भूमिका नहीं होगी ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था की सदस्यता, उन व्यक्तियों (व्यक्तियों /
+                                संस्थानों) तक सीमित है; जो सोच बदलो गाँव बदलो
+                                संस्था,बाड़ी के मुख्य उद्देश्यों को स्वीकार करने, उनका अनुपालन करने और उन्हें क्रियान्वित
+                                करने के
+                                लिए पूर्णतया सहमत हैं ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था की सदस्यता प्राप्त करने के लिए जमा की गई
+                                सदस्यता शुल्क पूरी तरह से अहस्तांतरणीय
+                                (नॉनरिफंडेबल) है ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था के सदस्य द्वारा किसी भी ऐसे कार्य या ऐसी
+                                गतिविधि में संलिप्तता पाए जाने की स्थिति में,
+                                सदस्यता स्वतः समाप्त हो जाएगी, जो संस्था के नियमों व शर्तों का उल्लंघन करते हैं, संस्था
+                                की छवि
+                                को धूमिल करते हैं या संस्था की प्रतिष्ठा को नुकसान पहुंचाते हैं।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था का कोई भी सदस्य, जबतक की वह संस्था की
+                                कार्यकारिणी या संस्था के पदाधिकारियों द्वारा
+                                लिखित रूप अधिकृत नहीं किया गया हो, संस्था के लिए या संस्था की ओर कोई भी कथन देने या बात
+                                रखने के
+                                लिए अधिकृत नहीं होगा ।</p>
+                        </li>
+                        <li class="">
+                            <p class="text-000000 fs-13 lh-base mb-0">संस्था के किसी सदस्य द्वारा व्यक्तिगत, पारिवारिक
+                                या सामाजिक स्तर पर किए गए किसी भी गैर
+                                कानूनी, असामाजिक या अनैतिक कार्य के लिए संस्था किसी भी प्रकार से जिम्मेदार नहीं होगी और
+                                इस
+                                प्रकार की गतिविधि में संलिप्त होने पर संस्था की सदस्यता बिना किसी कानूनी प्रक्रिया के
+                                स्वतः
+                                समाप्त हो जाएगी ।</p>
+                        </li>
+                    </ol>
+                    <p class="text-000000 fs-13 lh-base">
+                         मैंने उपरोक्त नियमों व शर्तों को गहनता से पढ़ और समझ लिया है। मैं इन सभी नियमों व शर्तों को
+                        स्वीकार करता / करती हूँ ।
+                    </p>
+
+                    <button class="btn btn-primary rounded-pill bg-3771C8 px-3 mt-3">सदस्यता के लिए आवेदन करें</button>
+                </div>
+                <!-- घोषणा  end -->
+
+            </div>
+        </div>
+    </div>
+    <!-- section2 end -->
+
+    <!-- Supporters Section start -->
+    <div class="container-fluid bg-FFEBB8" style="margin-top: -10px; padding-top: 10px;">
+        <div class="container">
+            <div class="row align-items-center py-4">
+                <div class="col-md-3 col-xl-2 mb-3 mb-md-0 border-end">
+                    <h4 class="fw-bold text-C45C00">हमारे समर्थक</h4>
+                </div>
+                <div class="col-md-9 col-xl-10 d-flex justify-content-around align-items-center overflow-auto">
+                    <img src="images/workholicsLogo.png" alt="Workholics" class="mx-3" height="35">
+                    <img src="images/ecoNeedFoundation.png" alt="Eco Needs Foundation" class="mx-3" height="50">
+                    <img src="images/workholicsLogo.png" alt="Workholics" class="mx-3" height="35">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Supporters Section end -->
+
+    <!-- footer section start -->
+    <div class="container-fluid">
+        <footer class="bg-white pt-4 border-top">
+            <div class="container">
+                <!-- Main Footer Section -->
+                <div class="row py-5">
+                    <div class="col-md-3 mb-4 mb-md-0 text-center text-md-start">
+                        <img src="images/header-logo.png" alt="SBGBT Logo" class="mb-3" style="width: 80px;">
+                        <p class="mb-1 fw-medium"><i class="fa-solid fa-envelope text-F27277"></i>
+                            sbgbteam@gmail.com</p>
+                        <p class="fw-medium"><i class="fa-solid fa-phone text-F27277"></i> +91 9314408609</p>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                        <ul class="list-unstyled">
+                            <li class="mb-3"><a href="index.html"
+                                    class="text-000000 fw-medium text-decoration-none active">होम</a>
+                            </li>
+                            <li class="mb-3"><a href="about-us.html"
+                                    class="text-000000 fw-medium text-decoration-none">हमारे
+                                    बारे में</a></li>
+                            <li class="mb-3"><a href="media-corner.html"
+                                    class="text-000000 fw-medium text-decoration-none">मीडिया
+                                    कॉर्नर</a></li>
+                            <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">संपर्क</a>
+                            </li>
+                            <!-- <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">हमारे
+                                        कार्य</a></li>
+                                <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">सफलता की
+                                        कहानी</a></li> -->
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                        <ul class="list-unstyled">
+
+                            <li class="mb-3"><a href="sampark-kare.html"
+                                    class="text-000000 fw-medium text-decoration-none">रजिस्ट्रेशन</a></li>
+                            <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">लॉगिन
+                                    करें</a></li>
+                            <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">महत्वपूर्ण
+                                    लिंक</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2">
+                        <ul class="list-unstyled">
+
+                            <li class="mb-3"><a href="gallery.html"
+                                    class="text-000000 fw-medium text-decoration-none">फोटो
+                                    गैलरी</a></li>
+                            <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">वीडियो</a>
+                            </li>
+                            <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">फीडबैक</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card rounded-4 overflow-hidden w-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7485.307821970125!2d80.30738261848215!3d20.27318322695113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2c4572e116aa57%3A0x3c119d4e3f7757f8!2sDhanora%2C%20Maharashtra%20442606!5e0!3m2!1sen!2sin!4v1749194071971!5m2!1sen!2sin"
+                                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Bottom Bar -->
+    <div class="container-fluid bg-F2F2F2">
+        <div class="container">
+            <div class="py-2 text-center d-block d-lg-flex justify-content-between align-items-center">
+                <p class="small mb-2 mb-lg-0">SBGBT टीम युवा कार्यकर्ताओं 2020 | सभी अधिकार सुरक्षित ।</p>
+                <p class="small mb-2 mb-lg-0">Design & Developed By
+                    <a href="#" class="fw-medium text-000000">Workholics Info
+                        Corp</a>
+                </p>
+                <div class="d-flex">
+                    <i class="fa-brands fa-facebook text-1877F2 bg-white rounded-circle"></i>
+                    <i class="fa-brands fa-square-x-twitter text-000000 ms-3"></i>
+                    <i class="fa-brands fa-youtube text-FF0000 ms-3"></i>
+                    <i class="fa-brands fa-blogger text-F06A35 ms-3"></i>
+                    <img src="images/insta-icon.png" alt="" class="ms-3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section end -->
+
+    </div>
+
+    <!-- Script for floating-label color -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const inputs = document.querySelectorAll(".form-control, .form-select");
+
+            inputs.forEach(input => {
+                input.addEventListener("focus", function () {
+                    const label = this.closest(".col-md-3")?.querySelector(".form-label");
+                    if (label) label.style.color = "#1976D2";
+                });
+
+                input.addEventListener("blur", function () {
+                    const label = this.closest(".col-md-3")?.querySelector(".form-label");
+                    if (label) label.style.color = ""; // resets to default
+                });
+            });
+        });
+    </script>
+
+</body>

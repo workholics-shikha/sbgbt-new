@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBGBT</title>
+
+    <!-- Internal Links -->
+    <link rel="stylesheet" href="style.css?ver=1.0.1">
+    <!-- Additional Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Bootstrap 5.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main-container jan-jagrukta-page">
+        <!-- header -->
+        <div class="container-fluid bg-000000">
+            <div class="container header1">
+                <div class="d-block d-md-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center p-2">
+                        <h6 class="mb-0 me-3 fs-14">
+                            <a href="mailto:sbgbteam@gmail.com" class="text-decoration-none">
+                                <i class="fa-solid fa-envelope text-F27277"></i>
+                                <span class="text-white ms-1 fw-normal">sbgbteam@gmail.com</span>
+                            </a>
+                        </h6>
+                        <h6 class="mb-0 fs-14">
+                            <a href="tel:+919314408609" class="text-decoration-none">
+                                <i class="fa-solid fa-phone text-F27277"></i>
+                                <span class="text-white ms-1 fw-normal">+91 9314408609</span>
+                            </a>
+                        </h6>
+                    </div>
+                    <div class="d-flex align-items-center p-2">
+                        <select class="form-select form-select-sm rounded-pill py-0 me-5"
+                            aria-label="Small select example">
+                            <option selected>भाषा बदले</option>
+                            <option value="1">Bengali</option>
+                            <option value="2">English</option>
+                            <option value="3">Gujarati</option>
+                            <option value="4">Hindi</option>
+                            <option value="5">Malayalam</option>
+                            <option value="6">Marathi</option>
+                            <option value="7">Punjabi (Gurmukhi)</option>
+                            <option value="8">Sindhi</option>
+                            <option value="9">Tamil</option>
+                            <option value="10">Telugu</option>
+                            <option value="11">Urdu</option>
+                        </select>
+                        <div class="d-flex">
+                            <a href="https://www.facebook.com/sbgbteam/" target="_blank">
+                                <i class="fa-brands fa-facebook text-1877F2 bg-white rounded-circle"></i>
+                            </a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsbgbteam" target="_blank">
+                                <i class="fa-brands fa-square-x-twitter text-white ms-3"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCOQAQS7J5cKft2mlwjpZn-A" target="_blank">
+                                <i class="fa-brands fa-youtube text-FF0000 ms-3"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-blogger text-F06A35 ms-3"></i>
+                            </a>
+                            <a href="https://www.instagram.com/sbgbteam/" target="_blank">
+                                <img src="images/insta-icon.png" alt="" class="ms-3">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-F4F4F4">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/header-logo.png" alt="" class="me-3">
+                        <span class="text-F27277 fw-bold d-none d-lg-block">SBGBT</span>
+                    </a>
+                    <!-- Mobile Toggle -->
+                    <div class="d-lg-none bg-F4F4F4 p-2 d-flex justify-content-between align-items-center">
+                        <a href="daan-kare.html"
+                            class="btn btn-danger rounded-pill d-flex align-items-center justify-content-center me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 21 21"
+                                fill="none">
+                                <path
+                                    d="M15 0C12.24 0 10 2.24 10 5C10 7.76 12.24 10 15 10C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0ZM15 8C13.34 8 12 6.66 12 5C12 3.34 13.34 2 15 2C16.66 2 18 3.34 18 5C18 6.66 16.66 8 15 8ZM18 14H16C16 12.8 15.25 11.72 14.13 11.3L7.97 9H0V20H6V18.56L13 20.5L21 18V17C21 15.34 19.66 14 18 14ZM4 18H2V11H4V18ZM12.97 18.41L6 16.5V11H7.61L13.43 13.17C13.77 13.3 14 13.63 14 14C14 14 12 13.95 11.7 13.85L9.32 13.06L8.69 14.96L11.07 15.75C11.58 15.92 12.11 16 12.65 16H18C18.39 16 18.74 16.24 18.9 16.57L12.97 18.41Z"
+                                    fill="white" />
+                            </svg>
+                            <span class="ms-2">दान करे</span>
+                        </a>
+                        <button class="btn border-0 p-0 d-flex align-items-center" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                            <i class="fa-solid fa-bars-staggered fs-1 fw-bold text-FF543E"></i>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="admit-card.html" class="btn rounded-pill btn-outline-danger me-3">Admit
+                                    Card</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="sadasyata-form.html" class="btn rounded-pill btn-outline-danger me-3">sbgbt
+                                    सदस्य बने</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="daan-kare.html" class="btn rounded-pill btn-danger d-flex align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 21 21"
+                                        fill="none">
+                                        <path
+                                            d="M15 0C12.24 0 10 2.24 10 5C10 7.76 12.24 10 15 10C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0ZM15 8C13.34 8 12 6.66 12 5C12 3.34 13.34 2 15 2C16.66 2 18 3.34 18 5C18 6.66 16.66 8 15 8ZM18 14H16C16 12.8 15.25 11.72 14.13 11.3L7.97 9H0V20H6V18.56L13 20.5L21 18V17C21 15.34 19.66 14 18 14ZM4 18H2V11H4V18ZM12.97 18.41L6 16.5V11H7.61L13.43 13.17C13.77 13.3 14 13.63 14 14C14 14 12 13.95 11.7 13.85L9.32 13.06L8.69 14.96L11.07 15.75C11.58 15.92 12.11 16 12.65 16H18C18.39 16 18.74 16.24 18.9 16.57L12.97 18.41Z"
+                                            fill="white" />
+                                    </svg>
+                                    <span class="ms-2">दान करे</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container header3">
+                <nav class="navbar navbar-expand-lg py-0">
+                    <div class="container-fluid p-0">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav gap-lg-4">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" aria-current="page" href="index.html">होम</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top active" href="about-us.html"> हमारे बारे में </a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="#"> हमारे कार्य </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="#">सफलता की कहानी</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="utthan-patrika.html">उत्थान पत्रिका</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border-top" href="gallery.html">गैलरी</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle nav-border-top" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        मीडिया कॉर्नर
+                                    </a>
+                                    <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                                        <li><a class="dropdown-item" href="jagrukta-lekh.html">जागरूकता लेख</a></li>
+                                        <li><a class="dropdown-item" href="media-corner.html">मीडिया कॉर्नर</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item me-3">
+                                    <a class="btn btn-sm btn-primary bg-3771C8 rounded-pill px-4 py-1 d-flex align-items-center"
+                                        href="sampark-kare.html"> संपर्क</a>
+                                </li>
+                                <li class="nav-item dropdown me-3">
+                                    <a class="dropdown-toggle border rounded-pill btn btn-sm px-3 py-1" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        रजिस्ट्रेशन
+                                    </a>
+                                    <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                                        <li><a class="dropdown-item" href="aavedan-form.html">SBGBT प्रतिभा सम्मान समागम
+                                                - रजिस्ट्रेशन</a></li>
+                                        <li><a class="dropdown-item" href="coaching-sanstha.html">उत्थान कोचिंग
+                                                रजिस्ट्रेशन</a></li>
+                                        <li><a class="dropdown-item" href="csr-partnership.html">CSR Partnership</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle border rounded-pill btn btn-sm px-3 py-1" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        लॉगिन करें 
+                                    </a>
+                                    <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                                        <li><a class="dropdown-item" href="sbgbt-prabandhak-login.html">SBGBT
+                                                प्रबंधक</a></li>
+                                        <li><a class="dropdown-item" href="coaching-prabandhak-login.html">उत्थान कोचिंग
+                                                प्रबंधक</a></li>
+                                        <li><a class="dropdown-item" href="spgbt-prabandhak-login.html">SPGBP
+                                                प्रबंधक</a></li>
+                                        <li><a class="dropdown-item" href="sbgbt-sadasya-login.html">SBGBT सदस्य</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Offcanvas Mobile Sidebar -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" style="background-color: #FFF5F5;">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/header-logo.png" alt="" class="me-3">
+                        <span class="text-F27277 fw-bold">SBGBT</span>
+                    </a>
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- Nav Links -->
+                <ul class="nav flex-column mb-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">होम</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">हमारे बारे में</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">हमारे कार्य</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">सफलता की कहानी</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="utthan-patrika.html">उत्थान पत्रिका</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">गैलरी</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">मीडिया कॉर्नर</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="jagrukta-lekh.html">जागरूकता लेख</a></li>
+                            <li><a class="dropdown-item" href="media-corner.html">मीडिया कॉर्नर</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Buttons -->
+                <div class="d-grid gap-2 mb-3">
+                    <a href="admit-card.html" class="btn btn-outline-danger rounded-pill">Admit Card</a>
+                    <a href="sadasyata-form.html" class="btn btn-outline-danger rounded-pill">sbgbt सदस्य बने</a>
+                    <a href="daan-kare.html"
+                        class="btn btn-danger rounded-pill d-flex align-items-center justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 21 21" fill="none">
+                            <path
+                                d="M15 0C12.24 0 10 2.24 10 5C10 7.76 12.24 10 15 10C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0ZM15 8C13.34 8 12 6.66 12 5C12 3.34 13.34 2 15 2C16.66 2 18 3.34 18 5C18 6.66 16.66 8 15 8ZM18 14H16C16 12.8 15.25 11.72 14.13 11.3L7.97 9H0V20H6V18.56L13 20.5L21 18V17C21 15.34 19.66 14 18 14ZM4 18H2V11H4V18ZM12.97 18.41L6 16.5V11H7.61L13.43 13.17C13.77 13.3 14 13.63 14 14C14 14 12 13.95 11.7 13.85L9.32 13.06L8.69 14.96L11.07 15.75C11.58 15.92 12.11 16 12.65 16H18C18.39 16 18.74 16.24 18.9 16.57L12.97 18.41Z"
+                                fill="white" />
+                        </svg>
+                        <span class="ms-2">दान करे</span>
+                    </a>
+                </div>
+
+                <!-- Contact & Login -->
+                <div class="d-grid gap-2">
+                    <a href="sampark-kare.html" class="btn btn-sm btn-primary rounded-pill">संपर्क</a>
+                    <div class="dropdown">
+                        <button class="btn btn-sm border rounded-pill dropdown-toggle w-100" data-bs-toggle="dropdown">
+                            रजिस्ट्रेशन
+                        </button>
+                        <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                            <li><a class="dropdown-item" href="aavedan-form.html">SBGBT प्रतिभा सम्मान समागम
+                                    - रजिस्ट्रेशन</a></li>
+                            <li><a class="dropdown-item" href="coaching-sanstha.html">उत्थान कोचिंग
+                                    रजिस्ट्रेशन</a></li>
+                            <li><a class="dropdown-item" href="csr-partnership.html">CSR Partnership</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-sm border rounded-pill dropdown-toggle w-100" data-bs-toggle="dropdown">
+                            लॉगिन करें
+                        </button>
+                        <ul class="dropdown-menu shadow mt-3 border-0 rounded-4 overflow-hidden">
+                            <li><a class="dropdown-item" href="sbgbt-prabandhak-login.html">SBGBT
+                                    प्रबंधक</a></li>
+                            <li><a class="dropdown-item" href="coaching-prabandhak-login.html">उत्थान कोचिंग
+                                    प्रबंधक</a></li>
+                            <li><a class="dropdown-item" href="spgbt-prabandhak-login.html">SPGBP
+                                    प्रबंधक</a></li>
+                            <li><a class="dropdown-item" href="sbgbt-sadasya-login.html">SBGBT सदस्य</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header -->
+
+
+        <!-- home banner start -->
+        <div class="container-fluid px-0 mb-4 pageTopHeaderBg py-3">
+            <h3 class="fw-semibold text-white text-center mb-0">हमारे बारे में</h3>
+        </div>
+        <!-- home banner End -->
+
+        <!-- section2 start -->
+        <div class="container-fluid section2 px-0 mb-4">
+            <div class="container">
+                <div class="card pink-card border-0 rounded-5 mb-4 position-relative">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-8 col-xxl-9">
+                                <h3 class="fw-bold text-FF543E">सोच बदलो - गाँव बदलो टीम</h3>
+                                <p class="text-000000 fw-medium lh-lg">“सोच बदलो-गांव बदलो टीम” का गठन ग्रामीण परिवेश के
+                                    “जागरूक” और “पे-बैक टू
+                                    सोसायटी” के सिद्धांत पर विश्वास रखने वाले युवाओं ने ग्रामीण संस्कृति और परिवेश को
+                                    बनाए रखते हुए गाँवों को विकास और आधुनिकता से जोड़ने में सहयोग करने के उद्देश्य किया
+                                    है। टीम का ध्येय वाक्य है- “जनजागरूकता और सक्रिय जनसहभागिता द्वारा गांव विकास के
+                                    लक्ष्य को प्राप्त करना| गाँवों में जागरूकता,गुणवत्तापूर्ण व रोजगारोन्मुखी शिक्षा,
+                                    स्वास्थ्य सेवाओं, रोजगार के साधनों, आधारभूत सुविधाओं, खेती की आधुनिक तकनीकों, सरकारी
+                                    योजनाओं और विकास कार्यक्रमों के विषय में पर्याप्त जानकारी के अभाव में समाज में
+                                    सामाजिक, राजनीतिक और आर्थिक लोकतंत्र और न्याय स्थापित कर एक समतामूलक समाज स्थापित
+                                    करना नाममुकिन है। अतः इन सभी समस्याओं के समाधान और ग्रामीण भारत के जीवन स्तर में
+                                    गुणात्मक परिवर्तन लाने के लिए शिक्षित, जुझारू, जागरूक और संगठित युवा पीढ़ी ने नई
+                                    सोच, नई रणनीति, नए उत्साह और नई उमंग के साथ "सोच बदलो-गाँव बदलो" अभियान की शुरुआत की
+                                    है।</p>
+                            </div>
+                            <div class="col-12 col-lg-4 col-xxl-3">
+                                <img src="images/aboutUsCard1-gif.gif" alt="" class="w-100">
+                            </div>
+                            <div class="col-12">
+                                <p class="text-000000 fw-medium lh-lg">
+                                    सोच बदलो-गांव बदलो टीम के कार्यकर्ता जमीनी स्तर पर सकारात्मक और रचनात्मक कार्यों में
+                                    संलग्न हैं जैसे- लोगों में जागरूकता और सामाजिक जनचेतना पैदा करना, जल संरक्षण व
+                                    पर्यावरण संवर्धन के लिए काम करना, बच्चों में शिक्षा के प्रति जागरूकता पैदा करना,
+                                    प्रतिभाशाली छात्रों को स्वस्थ प्रतिस्पर्धा पैदा करना, युवाओं का मार्गदर्शन करना और
+                                    स्वरोजगार हेतु कौशल विकास करना, गरीब प्रतिभाशाली छात्रों को आर्थिक सहयोग प्रदान
+                                    करना, महिलाओं विशेषरूप से बालिकाओं के सशक्तिकरण हेतु प्रयास करना, उत्थान पुस्तकालय
+                                    और उत्थान कोचिंग संस्थान का संचालन करना, गाँव विकास में ग्रामीणों की सक्रिय भागीदारी
+                                    सुनिश्चित करना, गांव की समस्याओं के विषय में मंथन करना, परस्पर सहयोग, सामंजस्य और जन
+                                    सहभागिता के माध्यम से गाँव की समस्याओं का समाधान गाँव स्तर पर निकालना, ग्राम पंचायत
+                                    द्वारा किए जाने वाले कार्यों के विषय में लोगों को जागरूक करना, सरकार की विभिन्न
+                                    योजनाओं के विषय में ग्रामीणों को सजग करना और उनका लाभ लोगों तक पहुंचाने में सहायता
+                                    करना, प्रशासन और ग्रामीण लोगों के मध्य सेतु का कार्य करना, जागरूकता रैलियों के
+                                    माध्यम से नशाखोरी के दुष्परिणामों से लोगों को अवगत कराना, जरूरतमंद लोगों को रक्तदान
+                                    के माध्यम से रक्त उपलब्ध कराना इत्यादि। इन प्रयासों के माध्यम से टीम ग्रामीण लोगों
+                                    के जीवन स्तर को ऊपर उठाने और उन्हें विकास की मुख्यधारा से जोड़ने में महत्वपूर्ण
+                                    योगदान दे रही है।
+                                    सोच बदलो-गांव बदलो संस्था द्वारा उपरोक्त कार्यों का संचालन संस्थागत रूप से विभिन्न
+                                    कार्यक्रमों के माध्यम से किया जा रहा है जैसे - "सोच बदलो-गांव बदलो यात्रा", “क्लीन
+                                    विलेज-ग्रीन विलेज”, "आओ पढ़ें-आगे बढ़े", "शिक्षा पाओ-ज्ञान बढाओ प्रतियोगिता', "उत्थान
+                                    कोचिंग संस्थान", "रक्तदान-महादान", "महिला सशक्तिकरण", "आधुनिक खेती-हमारा प्रयास"| इन
+                                    कार्यक्रमों का संचालन चीफ कोऑर्डिनेटर, एरिया कोऑर्डिनेटरों, मुख्य कोऑर्डिनेटरों और
+                                    गाँव कोऑर्डिनेटरों के माध्यम से किया जा रहा है। सोच बदलो-गांव बदलो टीम आपसे अपील
+                                    करती है कि आप भी टीम का सदस्य बनकर अपने गांव और क्षेत्र के विकास में अपना सकारात्मक
+                                    योगदान दें।
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card blue-card border-0 rounded-5 mb-4 position-relative">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-8 col-xxl-9">
+                                <h3 class="fw-bold text-093F68">सोच बदलो - गांव बदलो टीम के उद्देश्य</h3>
+                                <p class="text-000000 fw-medium lh-lg">सोच बदलो - गांव बदलो एक ऐसी विचारधारा है; जो
+                                    इंसान को इंसान से जोड़ती है, भाई को भाई से जोड़ती है, बेटे को परिवार से जोड़ती है,
+                                    परिवार को गांव और गांव को समाज से जोड़ती है तथा समाज को देश से जोड़ती है। यह समाज
+                                    में सकारात्मक और रचनात्मक कार्यों को आगे बढ़ाने और युवाओं की ऊर्जा को सही दिशा देने
+                                    वाला एक अभियान है। यह एक ऐसा अभियान है जो गांवों को विकास की मुख्यधारा से जोड़ने
+                                    हेतु प्रयासरत है। यह एक ऐसी विचारधारा है जो गांव के लोगों की सक्रिय सहभागिता,
+                                    प्रशासन के सहयोग और विभिन्न गैर सरकारी संगठनों के प्रयासों को संगठित कर गाँवों के
+                                    विकास का एक नया मॉडल लेकर आई है। सोच बदलो गांव बदलो टीम अपने प्रयासों से युवाओं का
+                                    मार्गदर्शन करने, गांव और समाज के प्रति उनके उत्तरदायित्व के प्रति जागरूक करने और
+                                    सबसे बढ़कर राष्ट्र निर्माण की प्रक्रिया में अपना सहयोग सुनिश्चित करने का अवसर प्रदान
+                                    कर रही है। टीम ने गांवों से पढ़-लिख कर निकले हजारों कर्मचारियों और विभिन्न क्षेत्रों
+                                    में कार्य कर रहे लोगों को अपने गांव की ओर वापस मुड़कर देखने तथा अपने गांव के विकास
+                                    में प्रत्यक्ष और अप्रत्यक्ष रूप से योगदान देने की सोच को विकसित किया है। टीम द्वारा
+                                    युवाओं की ऊर्जा को सकारात्मक और रचनात्मक कार्यों की ओर मोड़ा है तथा उन्हें वो रास्ता
+                                    दिखाया है ।</p>
+                            </div>
+                            <div class="col-12 col-lg-4 col-xxl-3">
+                                <img src="images/aboutUsCard2-gif.gif" alt="" class="w-100">
+                            </div>
+                            <div class="col-12">
+                                <p class="text-000000 fw-medium lh-lg">
+                                    <span class="fw-bold">जिसके माध्यम से वे अपने गांव के विकास में योगदान देकर
+                                        आत्मसम्मान और आत्म संतुष्टि का
+                                        अनुभव कर सकते हैं । “सोच बदलो-गांव बदलो अभियान” निम्नलिखित उद्देश्यों के साथ काम
+                                        कर
+                                        रहा है:</span> <br>
+                                    1. गाँवों में सकारात्मक सोच और रचनात्मक कार्यों द्वारा जन जागरूकता पैदा करना और
+                                    विकास के लिए जनचेतना उत्पन्न करना; ताकि आमजन अपने अधिकारों और दायित्वों के प्रति
+                                    संवेदनशील हो सकें और विकास प्रक्रिया का हिस्सा बनें । <br>
+                                    2. गाँवों की स्थानीय समस्याओं पर विचार करने और उनका स्थानीय स्तर पर समाधान खोजने का
+                                    प्रयास करना। गाँवों के विकास को गति देने के लिए "गाँव विकास समितियों" का गठन करना।
+                                    जिसका प्रमुख ध्येय ग्राम सभा और ग्राम पंचायत के साथ सहयोगात्मक समन्वय स्थापित कर
+                                    गांव के विकास के लिए कार्य करना । <br>
+                                    3. युवा पीढ़ी का उचित मार्गदर्शन करना तथा युवाओं की ऊर्जा को सकारात्मक दिशा देना
+                                    ताकि हमारे युवा प्रगति पथ पर आगे बढ़ते हुए राष्ट्र निर्माण की प्रक्रिया में भागीदारी
+                                    निभा सकें। <br>
+                                    4. बच्चों में नैतिक व मानवीय मूल्यों का विकास करना ताकि शिक्षा की गुणवत्ता के
+                                    साथ-साथ स्वस्थ सामाजिक वातावरण कायम किया जा सके। इस हेतु गाँवों में उत्थान बाल
+                                    संस्कार केंद्रों की स्थापना करना। विद्यालय विकास एवं प्रबन्धन समिति (SDMC) के माध्यम
+                                    से सरकारी विद्यालयों में शिक्षा की गुणवत्ता सुनिश्चित करने के लिए कार्य करना । <br>
+                                    5. प्रतिभाशाली विद्यार्थियों को नियमित रूप से सम्मानित और प्रेरित करना। शिक्षा के
+                                    क्षेत्र में जरूरतमंद बच्चों की आर्थिक सहायता करना। गाँवों में "उत्थान पुस्तकालय
+                                    खुलवाना" और "उत्थान कोचिंग संस्थान" तथा उनका नियमित संचालन करना। <br>
+                                    6. ग्रामीणों को सरकारी योजनाओं और विकास कार्यक्रमों की जानकारी देना। सरकारी योजनाओं
+                                    (केंद्र / राज्य / नाबार्ड) की जानकारी और उनके लाभ लाभार्थियों तक पहुँचाने में सरकारी
+                                    एजेंसीज का सहयोग करना। इस अभियान का मूल मंत्र है – विकास प्रक्रिया में आमजन की
+                                    सक्रिय भागीदारी | <br>
+                                    7. "वित्तीय समावेशन" सुनिश्चित करने के लिए वित्तीय साक्षरता कार्यक्रम आयोजित करना।
+                                    वित्तीय समावेशन के महत्व के प्रति ग्रामीणों को जागरूक करना और क्रेडिट (KCC / GCC /
+                                    ACC) के विषय में जागृति लाना। अधिकतम लोगों को बैंकिंग व्यवस्था से जोड़ने का प्रयास
+                                    करना । <br>
+                                    8. स्वयं सहायता समूह, किसान समूह, महिला मंडल, युवा संगठन और चौपाल जैसी व्यवस्थाओं को
+                                    स्थापित करके लोगों को नियमित रूप से भागीदारी के लिए प्रेरित करना और गांव के सुधार
+                                    एवंम विकास कार्यों पर परिचर्चा और सामूहिक निर्णय के लिए प्रेरित करना है। सहकारी
+                                    समितियों के माध्यम से स्थानीय स्तर पर रोजगार सृजन का प्रयास करना । <br>
+                                    9. समाज में व्याप्त कुरीतियों जैसे- मृत्यु भोज, दहेज प्रथा, बाल-विवाह, अंधविश्वास,
+                                    पाखंड आदि को खत्म करके वैज्ञानिक सोच पैदा करना। <br>
+                                    10. सामाजिक बुराइयों जैसे शराब, जुआ, गुटखा, बीड़ी और तंबाकू आदि व्यसनों से होने वाली
+                                    समस्याओं और रास्तों पर अतिक्रमण की समस्या के प्रति लोगों को सजग करना और इनके उन्मूलन
+                                    की दिशा में प्रयास करना। <br>
+                                    11. लोगों को पर्यावरण के प्रति जागरूक करना ताकि पेड़ व पानी का संरक्षण किया जा सके।
+                                    इसके अंतर्गत वृक्षारोपण, जल संरक्षण अभियान, अतिक्रमण मुक्ति अभियान, स्वच्छता अभियान
+                                    इत्यादि कार्यक्रम संचालित करना। किसानों को खेती की आधुनिक तकनीकों और सरकारी योजनाओं
+                                    की जानकारी उपलब्ध कराना ताकि उन्नत खेती के साथ हमारे गांवों में खुशहाली लाई जा सके।
+                                    <br>
+                                    12. लोगों में समरसता, वैज्ञानिक दृष्टिकोण, मानवतावादी एवं विकासोन्मुखी सोच को बढ़ावा
+                                    देना। समता, न्याय और लोकतांत्रिक मूल्यों पर आधारित समतामूलक समाज का निर्माण करना।
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card green-card border-0 rounded-5 mb-4 position-relative">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-8 col-xxl-9">
+                                <h3 class="fw-bold text-6CAF16">सोच बदलो-गांव बदलो टीम का उद्भव</h3>
+                                <p class="text-000000 fw-medium lh-lg">मूलतः इस विचार की उत्पत्ति राजस्थान प्रांत के
+                                    धौलपुर जिले के एक छोटे से गांव धनौरा से हुई। भारत के प्रधानमंत्री के कर कमलों से
+                                    आदर्श ग्राम सम्मान विजेता स्मार्ट विलेज धनौरा, (धौलपुर, राजस्थान) जिला मुख्यालय से
+                                    30 किमी और बाड़ी कस्बे से 5 किमी की दूरी पर उत्तर पूर्व में स्थित सुंदर और सुरम्य
+                                    छोटा सा गांव है।
+                                    धनौरा गाँव को “स्मार्ट विलेज” का अलंकरण भारतीय राजस्व सेवा के अधिकारी डॉ. सत्यपाल
+                                    सिंह के विजन, आधुनिक व विकासवादी सोच, ग्रामीणों की सक्रिय सहभागिता, सरकार एवं जिला
+                                    प्रशासन के सहयोग और इको-नीड्स फाउंडेशन प्रेसिडेंट (प्रोफ़ेसर प्रियानंद अगड़े) की
+                                    स्मार्ट कार्य शैली व निस्वार्थ प्रयासों का परिणाम है। राज्य सरकार द्वारा धनौरा ग्राम
+                                    पंचायत को राज्य स्तरीय पंचायत अवार्ड से नवाजा जा चुका है। आज हर घर में शौचालय,
+                                    सीवरेज लाइन, सीवेज ट्रीटमेंट प्लांट, अतिक्रमण और कीचड़ मुक्त उच्च कोटि की कंक्रीट
+                                    सड़कें, गौरव पथ, आधुनिक कम्यूनिटी सेंटर, सूचना केंद्र, कौशल विकास केंद्र, पुस्तकालय,
+                                    ध्यान केंद्र, सोलर लाइट से जगमगाती गलियाँ, और दीवारों पर प्रेरणादायी व मनोहारी
+                                    चित्रकारी स्मार्ट विलिज धनौरा सुंदरता में चार चांद लगा रहे हैं। धनौरा के संस्थागत
+                                    विकास मॉडल, ग्रामीण विकास की मुहिम को दूसरे गांवों तक पहुंचाने और लोगों में जनचेतना
+                                    पैदा करने के लिए "सोच बदलो गांव बदलो अभियान" की शुरुआत की गई है।</p>
+                            </div>
+                            <div class="col-12 col-lg-4 col-xxl-3">
+                                <img src="images/aboutUsCard3-img.png" alt="" class="w-100">
+                            </div>
+                            <div class="col-12">
+                                <p class="text-000000 fw-medium lh-lg">
+                                    डॉ. सत्यपाल सिंह मीना और इको नीड्स फाउंडेशन के संस्थापक प्रोफेसर प्रियानंद अगड़े
+                                    ग्रामीण परिवेश के “जागरूक” और “पे-बैक टू सोसायटी” के सिद्धांत पर विश्वास रखने वाले
+                                    सक्रिय और कर्मठ युवाओं को साथ लेकर, विकास के संदर्भ में हाशिए पर चल रहे ग्रामीण
+                                    क्षेत्रों में जन जागरूकता और विकास जन-चेतना उत्पन्न करने के उद्देश्य से एक विशाल
+                                    "सोच बदलो गांव बदलो यात्रा" निकाली गई। इस यात्रा के माध्यम से राजस्थान, महाराष्ट्र
+                                    और मध्यप्रदेश के लगभग 100 गांवों में विकासवादी सोच देने का सफल प्रयास किया गया।
+                                    जैसे-जैसे यात्रा आगे बढ़ी, अपार जनसमर्थन मिलने से यात्रा एक जन अभियान का रूप लेती
+                                    चली गई और इस "सोच बदलो गांव बदलो अभियान" ने अपने सकारात्मक और रचनात्मक कार्यों से
+                                    लोगों के मन मस्तिष्क में सकारात्मक परिवर्तन लाना शुरू कर दिया। आज सोच बदलो-गांव बदलो
+                                    अभियान के अंतर्गत "सोच बदलो-गांव बदलो यात्रा", “क्लीन विलेज-ग्रीन विलेज”, "आओ
+                                    पढ़ें-आगे बढ़े", "शिक्षा पाओ-ज्ञान बढाओ प्रतियोगिता', "उत्थान कोचिंग संस्थान",
+                                    "रक्तदान-महादान", "महिला सशक्तिकरण", "आधुनिक खेती-हमारा प्रयास" इत्यादि
+                                    महत्वाकांक्षी कार्यक्रमों का सफल संचालन किया जा रहा है| इन कार्यक्रमों का संचालन चीफ
+                                    कोऑर्डिनेटर, एरिया कोऑर्डिनेटरों, मुख्य कोऑर्डिनेटरों और गाँव कोऑर्डिनेटरों के
+                                    माध्यम से किया जा रहा है। वर्तमान में यह अभियान देश अनेक गांवों, शहरों व कस्बों में
+                                    युवा दिलों की धड़कन बन चुका है। इस अभियान से माध्यम से आज ग्रामीण परिवेश से निकला
+                                    हुआ युवा अपनी जड़ों से जुड़कर अपने गांव के विकास में आप महती भूमिका निर्वाह कर रहा है।
+                                    इस अभियान की सबसे बड़ी सफलता भी कही जा सकती है क्योंकि इस सकारात्मक मुहिम ने युवा
+                                    पीढ़ी की ऊर्जा को सहेजकर रचनात्मक कार्यों के प्रति अभिप्रेरित किया है।
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section2 end -->
+
+        <!-- Supporters Section start -->
+        <div class="container-fluid bg-FFEBB8" style="margin-top: -10px; padding-top: 10px;">
+            <div class="container">
+                <div class="row align-items-center py-4">
+                    <div class="col-md-3 col-xl-2 mb-3 mb-md-0 border-end">
+                        <h4 class="fw-bold text-C45C00">हमारे समर्थक</h4>
+                    </div>
+                    <div class="col-md-9 col-xl-10 d-flex justify-content-around align-items-center overflow-auto">
+                        <img src="images/workholicsLogo.png" alt="Workholics" class="mx-3" height="35">
+                        <img src="images/ecoNeedFoundation.png" alt="Eco Needs Foundation" class="mx-3" height="50">
+                        <img src="images/workholicsLogo.png" alt="Workholics" class="mx-3" height="35">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Supporters Section end -->
+
+        <!-- footer section start -->
+        <div class="container-fluid">
+            <footer class="bg-white pt-4 border-top">
+                <div class="container">
+                    <!-- Main Footer Section -->
+                    <div class="row py-5">
+                        <div class="col-md-3 mb-4 mb-md-0 text-center text-md-start">
+                            <img src="images/header-logo.png" alt="SBGBT Logo" class="mb-3" style="width: 80px;">
+                            <p class="mb-1 fw-medium"><i class="fa-solid fa-envelope text-F27277"></i>
+                                sbgbteam@gmail.com</p>
+                            <p class="fw-medium"><i class="fa-solid fa-phone text-F27277"></i> +91 9314408609</p>
+                        </div>
+
+                        <div class="col-6 col-md-2">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><a href="index.html"
+                                        class="text-000000 fw-medium text-decoration-none active">होम</a>
+                                </li>
+                                <li class="mb-3"><a href="about-us.html"
+                                        class="text-000000 fw-medium text-decoration-none">हमारे
+                                        बारे में</a></li>
+                                <li class="mb-3"><a href="media-corner.html"
+                                        class="text-000000 fw-medium text-decoration-none">मीडिया
+                                        कॉर्नर</a></li>
+                                <li class="mb-3"><a href="#"
+                                        class="text-000000 fw-medium text-decoration-none">संपर्क</a></li>
+                                <!-- <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">हमारे
+                                        कार्य</a></li>
+                                <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">सफलता की
+                                        कहानी</a></li> -->
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-md-2">
+                            <ul class="list-unstyled">
+
+                                <li class="mb-3"><a href="sampark-kare.html"
+                                        class="text-000000 fw-medium text-decoration-none">रजिस्ट्रेशन</a></li>
+                                <li class="mb-3"><a href="#" class="text-000000 fw-medium text-decoration-none">लॉगिन
+                                        करें</a></li>
+                                <li class="mb-3"><a href="#"
+                                        class="text-000000 fw-medium text-decoration-none">महत्वपूर्ण लिंक</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-md-2">
+                            <ul class="list-unstyled">
+
+                                <li class="mb-3"><a href="gallery.html"
+                                        class="text-000000 fw-medium text-decoration-none">फोटो
+                                        गैलरी</a></li>
+                                <li class="mb-3"><a href="#"
+                                        class="text-000000 fw-medium text-decoration-none">वीडियो</a></li>
+                                <li class="mb-3"><a href="#"
+                                        class="text-000000 fw-medium text-decoration-none">फीडबैक</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card rounded-4 overflow-hidden w-100">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7485.307821970125!2d80.30738261848215!3d20.27318322695113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2c4572e116aa57%3A0x3c119d4e3f7757f8!2sDhanora%2C%20Maharashtra%20442606!5e0!3m2!1sen!2sin!4v1749194071971!5m2!1sen!2sin"
+                                    width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Bottom Bar -->
+        <div class="container-fluid bg-F2F2F2">
+            <div class="container">
+                <div class="py-2 text-center d-block d-lg-flex justify-content-between align-items-center">
+                    <p class="small mb-2 mb-lg-0">SBGBT टीम युवा कार्यकर्ताओं 2020 | सभी अधिकार सुरक्षित ।</p>
+                    <p class="small mb-2 mb-lg-0">Design & Developed By
+                        <a href="#" class="fw-medium text-000000">Workholics Info
+                            Corp</a>
+                    </p>
+                    <div class="d-flex">
+                        <i class="fa-brands fa-facebook text-1877F2 bg-white rounded-circle"></i>
+                        <i class="fa-brands fa-square-x-twitter text-000000 ms-3"></i>
+                        <i class="fa-brands fa-youtube text-FF0000 ms-3"></i>
+                        <i class="fa-brands fa-blogger text-F06A35 ms-3"></i>
+                        <img src="images/insta-icon.png" alt="" class="ms-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer section end -->
+
+    </div>
+</body>
