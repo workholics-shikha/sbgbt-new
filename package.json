@@ -1,0 +1,18 @@
+{
+  "name": "sbgbt-design",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "mongoose": "^8.16.5",
+    "next": "^15.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "swiper": "^11.2.10"
+  }
+}
